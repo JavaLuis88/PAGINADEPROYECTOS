@@ -1,0 +1,3 @@
+replace into objetos 
+Update objetos set prov = "" where prov = "A.3";
+SELECT DISTINCT PROV FROM `objetos` ORDER BY PROV;

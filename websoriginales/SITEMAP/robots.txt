@@ -1,0 +1,5 @@
+User-agent: *
+Disallow: /nbroject/
+Disallow: /incoming/
+Sitemap: http://joseluiss.scatalinaproyectos.es/sitemap.xml
+Crawl-delay: 30

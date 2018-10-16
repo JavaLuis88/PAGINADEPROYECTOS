@@ -1,0 +1,29 @@
+{
+  "name": "webinventario",
+  "description": "Inventario de del CIFP Santa Catalina",
+  "main": "index.php",
+  "keywords": [
+    "Inventario",
+    "Altas",
+    "Bajas"
+  ],
+  "authors": [
+    "Jose Luis Sanz Serrano"
+  ],
+  "license": "GNU V3",
+  "homepage": "http://www.cifpsantacatalina.com",
+  "private": true,
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "v4.0.0-alpha.6",
+    "popper.js": "^1.12.9",
+    "tooltip.js": "https://unpkg.com/tooltip.js",
+    "font-awesome": "fontawesome#^4.7.0"
+  }
+}

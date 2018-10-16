@@ -1,0 +1,267 @@
+
+html {
+    position: relative;
+    min-height: 100%;
+}
+body {
+
+
+    margin-bottom:6em
+
+}
+
+
+
+.espaciadosuperior1per {
+
+    padding-top: 1%;
+
+
+
+}
+
+
+.espaciadosuperior2per {
+
+    padding-top: 2%;
+
+
+
+}
+
+.espaciadoinferior1per {
+
+    padding-bottom: 1%;
+
+
+
+}
+
+
+
+.margensuperior1per {
+
+    margin-top: 1%;
+
+
+
+}
+.margensuperior2per {
+
+    margin-top: 2%;
+
+
+
+}
+.margensizquierdo {
+
+    margin-left: 1%;
+
+
+
+}
+.margenderecho3per {
+
+    margin-right: 3%;
+
+
+
+}
+
+
+
+
+
+section {
+
+    padding-bottom: 1%;
+
+}
+
+footer.piepagina {
+
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 6em;
+    color: #ffffff;
+    background-color: #5cb85c;
+
+
+}
+
+a.enlacespie {
+
+    color: #ffffff; 
+
+}
+
+
+
+li.listamenu{
+    display: inline;
+    margin-right: 1%;
+    font-size: 2rem;
+    padding-right: 3%;
+}
+
+iframe
+
+.bordedondestamos {
+
+
+    border-right-style: double;
+    border-right-color: lightgray 
+
+}
+
+
+.bordesredondos {
+    -webkit-border-radius: 5%;
+    -moz-border-radius: 5%;
+    border-radius: 5%;
+}
+.cuadroprimario {
+
+    background-color: #5cb85c;
+    color:#ffffff;
+    font-family: Courier;
+
+}
+
+
+.cuadrosecundario {
+
+    background-color: lightgray;
+    color:purple;
+    font-family: Courier;
+
+}
+
+@media (max-width: 767px) {
+    h1.cabecerapagina {
+
+
+
+        font-size:3em;
+
+    }
+
+    h2.subcabecerapagina {
+
+
+        font-size:1em
+
+
+    }
+
+    iframe.mapa {
+
+        height:20em;
+        width:100%;
+        border:0;
+    }
+
+}
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    h1.cabecerapagina {
+
+
+
+        font-size:6em;
+
+    }
+
+    h2.subcabecerapagina {
+
+
+        font-size:1.5em
+
+
+    }
+
+    iframe.mapa {
+
+        height:20em;
+        width:100%;
+        border:0;
+    }
+
+}    
+
+@media (min-width: 992px) and (max-width: 1199px) {
+    h1.cabecerapagina {
+
+
+
+        font-size:7em;
+
+    }
+
+    h2.subcabecerapagina {
+
+
+        font-size:2em;
+
+
+    }
+
+    iframe.mapa {
+
+        height:20em;
+        width:100%;
+        border:0;
+    }
+
+}
+
+@media (min-width: 1200px) {
+    h1.cabecerapagina {
+
+
+
+        font-size:8em;
+
+    }
+
+    h2.subcabecerapagina {
+
+
+        font-size:2em
+
+
+    }
+
+    iframe.mapa {
+
+        height:20em;
+        width:100%;
+        border:0;
+    }
+}
+
+<!--PARTE PRIVADA-->
+
+
+body.cuerpoapp {
+
+
+    margin-bottom:4em
+
+}
+
+footer.pieapp {
+
+    position: absolute;
+    bottom: 0%;
+    width: 100%;
+    height: 4em;
+    background-color: #f5f5f5;
+    color: #ffffff;
+    background-color: #5cb85c;
+
+
+}

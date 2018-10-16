@@ -1,0 +1,119 @@
+
+
+body#cuerpopartepublica {
+    /*
+        margin-bottom: 5em;
+    */
+
+}
+
+
+
+header#cabeceracontenidopartepublica {
+
+
+}
+
+
+
+
+aside#barralateralpartepublica {
+    position: absolute;
+    left:0%;
+    width:10%;
+
+}
+section {
+
+    position: absolute;
+    left:11%;
+    width:90%;
+    padding-bottom: 8em; 
+
+    
+}
+
+footer#piepartepublica {
+    /*
+position: absolute;
+bottom: 0%;
+height: 5em;
+width: 100%;
+    */
+}
+
+
+.coloresprimarios {
+
+    background-color:#BDE0FF;
+    color:#FFFFFF;
+
+
+}
+
+a.enlacespie {
+
+    color:#FFFFFF;
+
+
+}
+
+@media (max-width: 767px) {
+
+
+
+}    
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+
+
+
+
+
+
+}  
+
+
+
+
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+
+
+
+}
+
+
+
+
+@media (min-width: 1200px) {
+
+
+
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

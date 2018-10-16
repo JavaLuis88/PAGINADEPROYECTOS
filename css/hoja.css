@@ -1,0 +1,268 @@
+
+.coloresprimarios {
+
+    background-color: #FFFFFF;
+    color:#000000;
+
+
+
+}
+
+.coloressecundarios {
+
+    background-color: lightgrey;;
+
+
+
+}
+
+@media (max-width: 576px) {
+
+    h1#cabecerapagina {
+
+        font-size:1.2em;
+    }
+
+
+    h2.subcabecerasigatura {
+
+        font-size: 1em;    
+
+    }
+    h3.subcabeceraproyecto {
+
+        font-size: 0.5em;    
+
+    }
+
+
+    article#descripcionpagina {
+
+        font-size:0.7em;
+
+
+    }
+
+
+    p.descripcion {
+
+        font-size:0.7em;
+
+
+    }
+
+    address#direccioncentro{
+        font-size:0.5em;
+    }
+
+
+    section#seccionprincipal {
+        margin-bottom:2em;
+
+    }
+
+    a.enlacesmapa {
+        font-size: 0.7em;
+
+    }
+
+}    
+
+
+@media (min-width: 577px) and (max-width: 767px) {
+
+    h1#cabecerapagina {
+
+
+    }
+
+
+    h2.subcabecerasigatura {
+
+
+    }
+    h3.subcabeceraproyecto {
+
+
+    }
+
+
+    article#descripcionpagina {
+
+        font-size:1.5em;
+
+
+    }
+
+    p.descripcion {
+
+        font-size:1.5em;
+
+
+    }
+
+    address#direccioncentro{
+
+    }
+    section#seccionprincipal {
+
+        margin-bottom: 6em;
+
+    }
+
+    a.enlacesmapa {
+
+
+    }
+}  
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    h1#cabecerapagina {
+
+
+    }
+
+
+    h2.subcabecerasigatura {
+
+
+    }
+    h3.subcabeceraproyecto {
+
+
+    }
+
+
+    article#descripcionpagina {
+
+        font-size:1.5em;
+
+
+    }
+
+    p.descripcion {
+
+        font-size:1.5em;
+
+
+    }
+
+    address#direccioncentro{
+
+    }
+    section#seccionprincipal {
+
+        margin-bottom: 6em;
+
+    }
+
+    a.enlacesmapa {
+
+
+    }
+
+
+}  
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    h1#cabecerapagina {
+
+
+    }
+
+
+    h2.subcabecerasigatura {
+
+
+    }
+    h3.subcabeceraproyecto {
+
+
+    }
+
+
+    article#descripcionpagina {
+
+        font-size:1.5em;
+
+
+    }
+
+    p.descripcion {
+
+        font-size:1.5em;
+
+
+    }
+
+    address#direccioncentro{
+
+    }
+    section#seccionprincipal {
+
+        margin-bottom: 6em;
+
+    }
+
+    a.enlacesmapa {
+
+
+    }
+
+}
+
+
+
+
+@media (min-width: 1200px) {
+
+    h1#cabecerapagina {
+
+
+    }
+
+
+    h2.subcabecerasigatura {
+
+
+    }
+    h3.subcabeceraproyecto {
+
+
+    }
+
+
+    article#descripcionpagina {
+
+        font-size:1.5em;
+
+
+    }
+
+    p.descripcion {
+
+        font-size:1.5em;
+
+
+    }
+
+    address#direccioncentro{
+
+    }
+    section#seccionprincipal {
+
+        margin-bottom: 6em;
+
+    }
+
+    a.enlacesmapa {
+
+
+    }
+
+
+}

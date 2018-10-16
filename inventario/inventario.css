@@ -1,0 +1,64 @@
+body {
+    background-color: #003c00;
+    font-family: 'Verdana';
+    margin: 0 !important;
+}
+#contenedor {
+    width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+
+}
+#header {
+    height: 80px;
+    width: 900px;
+    float:left;
+    background-color: #fff;
+}
+#header img {
+    margin-left: 50px;
+    float: left;
+}
+#header p {
+    font-size: 18px;
+    font-style: italic;
+    font-weight: bold;
+    font-variant: small-caps;
+    float: right;
+    margin-right: 50px;
+}
+#contenido {
+    background-color: #1b9e02;
+    height: 704px;
+    width: 900px;
+    float:left;
+padding-top: 20px;
+}
+#footer {
+    height: 20px;
+    width: 900px;
+    float:left;
+    background-color: #1b9e02;
+}
+.mainmenu {
+    background: url(images/inventario.png) no-repeat center center;
+    background-size: 100%;
+}
+#barraSuperior{
+    background-color: white;
+    border-bottom: 3px solid #1b9e02;
+    min-height: 30px;
+}
+#barraSuperior .cerrar{
+    left: 91%;
+    top: 2px;
+    position: absolute;
+}
+#barraSuperior .nombreSuperior{
+    display: inline;
+    position: absolute;
+    top: 3px;
+    left: 2%;
+    text-transform: capitalize;
+    margin: 0 !important;
+}

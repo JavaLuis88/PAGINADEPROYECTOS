@@ -1,0 +1,65 @@
+<html>
+<head> 
+<title>Formulario para añadir datos a la tabla demo4</title> 
+
+</head> 
+<body> 
+
+ <center><h2>Tabla <br>Formulario de alta de usuarios<h2></center> 
+ <?
+$v3=strtoupper($_POST['p_v3']); 
+$v4=$_POST['p_v4'];
+$valido=0;
+$c=mysql_connect("172.16.83.32","admininv","admin2013");
+$base="inventario";  
+$tabla="user";  
+ 
+
+mysql_select_db($base,$c);  
+mysql_query("select username,password from $tabla,$c where username=$v3 and password=$v4;" ); 
+
+
+
+$valido=;
+mysql_close();
+
+
+$i=0;
+while (  $valido==0  and $i<=3)
+{
+if($valido=="false"){
+<td align="right">	Usuario: </td> 
+<td align="left"> <input type="text" name="p_v3" value="" size=15></td><tr> 
+<td align="right"> Clave: </td> 
+<td align="left"> <input type="password" name="p_v4" value="" size=15></td><tr> 
+ $i++;
+ }
+ 
+?>
+<form name="consultas" method="POST" action="usnuevo.php"> 
+<table bgcolor="#339933" align=center border=2> 
+
+<td align="right">	Username: </td> 
+<td align="left"> <input type="text" name="p_v1" value="" size=15></td><tr> 
+<td align="right">password: </td> 
+<td align="left"> <input type="password" name="p_v2" value="" size=15></td><tr> 
+<td align="right">Departamento: </td> 
+<td align="left"> <input type="text" name="p_v3" value="" size=15></td><tr> 
+<td align="right">Permisos de acceso: </td> 
+<td align="left"> <input type="radio" name="p_v4" value="1"  size=15> Total <input type="radio" name="p_v4" value="0" checked size=15> S&oacute;lo lectura </td><tr>
+
+<!--colocamos los botones de enviar y borrar //--> 
+<td align=center><input type=submit value="Enviar"></td> 
+<td align=center><input type=reset value="Borrar"></td> 
+ </form>
+ </body>
+
+ 
+ 
+ </html>
+
+
+
+
+
+

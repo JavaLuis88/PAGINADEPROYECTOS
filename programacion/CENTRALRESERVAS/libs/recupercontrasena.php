@@ -1,0 +1,48 @@
+<?php
+header("Content-type:text/json\n\n");
+$directorioraiz=dirname(__FILE__,2);
+include_once 'controlsesion.php';
+include_once "$directorioraiz/config/config.php";
+include_once 'logica.php';
+include_once 'ClearData.php';
+
+
+$cadenafechaentrada = NULL;
+$cadenafechasalida = NULL;
+$fechaentrada = NULL;
+$fechasalida = NULL;
+$retval = NULL;
+
+
+
+
+
+if (DEPURACION == TRUE) {
+
+    if (isset($_GET["datos"])) {
+
+        $cadenafechaentrada = json_decode($_GET["datos"]);
+    }
+} else {
+    if (isset($_POST["datos"])) {
+        $cadenafechaentrada = json_decode($_POST["datos"]);
+    }
+}
+
+
+if ($cadenafechaentrada == NULL) {
+
+    $retval = "Datos no validoa";
+} else if (ClearData::clearInput($cadenafechaentrada->correo) != $cadenafechaentrada->correo || filter_var($cadenafechaentrada->correo, FILTER_VALIDATE_EMAIL) === FALSE) {
+    $retval = "Correo Electronico no es válido";
+}
+else {
+    $retval = recuperarusuario($cadenafechaentrada->correo);
+}
+
+
+
+
+
+print(json_encode($retval));
+?>

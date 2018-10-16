@@ -1,0 +1,68 @@
+
+.coloressecundarios {
+
+    background-color: lightgrey;;
+
+
+
+}
+
+
+@media (max-width: 767px) {
+
+    article#descripcionpagina {
+
+        font-size:0.7em;
+
+
+    }
+
+}    
+
+
+
+
+
+
+@media (min-width: 768px) and (max-width: 991px) {
+
+    article#descripcionpagina {
+
+        font-size:2em;
+
+
+    }
+
+
+
+
+}  
+
+@media (min-width: 992px) and (max-width: 1199px) {
+
+    article#descripcionpagina {
+
+        font-size:2em;
+
+
+    }
+
+
+
+}
+
+
+
+
+@media (min-width: 1200px) {
+
+
+    article#descripcionpagina {
+
+        font-size:2em;
+
+
+    }
+
+
+}
